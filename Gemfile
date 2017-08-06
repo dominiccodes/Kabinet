@@ -18,6 +18,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'simple_form', '~> 3.5'
 gem 'haml', '~> 5.0', '>= 5.0.2'
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 
 
 group :development, :test do
