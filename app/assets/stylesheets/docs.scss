@@ -2,7 +2,8 @@
 
  #docs {
 	.doc {
-		background: #78594B;
+//		background: #78594B;
+		background: #ECEBE3;
 		width: 90%;
 		min-height: 100px;
 		margin: 1rem 1%;
@@ -45,6 +46,7 @@
 #doc_show {
 	.title {
 		@include bold_font;
+//		color: #78594B;
 		color: #78594B;
 		font-size: 2.0rem;
 		margin-bottom: 1.25rem;
